@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>CSS Transition</title>
+<style>
+button{
+background-color:blue;
+color:white;
+padding:15px 30px;
+border:solid;
+cursor:pointer;
+
+transition : background-color 5s ease;
+}
+button : hover {
+background-color:green;
+}
+
+.box{
+width:100px;
+height:100px;
+background-color:orange;
+transition:width 1s ease;
+}
+.box:hover{
+width:500px;
+}
+</style>
+</head> 
+<body>
+<h2> SECE </h2>
+<button>CSE</button>
+<h1>Hover over the box</h1>
+<div class="box"></div>
+</body>
+</html>
